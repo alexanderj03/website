@@ -12,16 +12,12 @@ body {
 }
 
 #bottom {
-  background-color: black;
+  background-color: #202124;
 }
 
-/* #top {
-  height: 70px;
+h1 {
+  margin: 0;
 }
-
-#bottom {
-  height: 50px;
-} */
 
 .list-container {
   margin: 0;
@@ -54,7 +50,7 @@ body {
   background-color: #1c1c1f;
   display: flex;
   flex-direction: column;
-  padding-top: 10%;
+  padding-top: 15%;
 }
 
 .title-container {

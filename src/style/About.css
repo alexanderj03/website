@@ -1,5 +1,60 @@
 .about-page {
+  padding-top: 8%;
+  width: 100vw;
+  height: 92vh;
+  background-color: #34353a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.about-me {
+  color: orange;
+}
+
+.intro-info-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.intro-info {
+  font-family: 'Courier New', Courier, monospace;
+  width: 500px;
+  margin: 0;
+  margin-left: 5%;
+}
+
+.profile-image {
+  background-color: black;
+  width: 120px;
+  height: 120px;
+  border-radius: 50px;
+  margin: auto;
+}
+
+.resume-page {
+  background-color: #1c1c1f;
   width: 100vw;
   height: 100vh;
+}
+
+.contact-page {
+  background-color: #1c1c1f;
+  width: 100vw;
+  height: 100vh;
+}
+
+.project-page {
   background-color: #34353a;
+  width: 100vw;
+  height: 100vh;
+}
+
+@media screen and (max-width: 900px) {
+  .about-page {
+    padding: 10% 20% 0 20%;
+    width: 60vw;
+  }
+  
 }

@@ -15,22 +15,22 @@ const Home = () => {
   })
 
   return (
-    <div className='header-page'>
+    <div className='header-page' >
       <div className='header' id={id}>
         <div className='list-container'>
-          <li className='list'>
+          <li className='list' onClick={() => {window.scrollTo({ top: 0, behavior: 'smooth' })}}>
             Home
           </li>
-          <li className='list'>
+          <li className='list' onClick={() => scroll('about-page')}>
             About
           </li>
-          <li className='list'>
+          <li className='list' onClick={() => scroll('resume-page')}>
             Resume
           </li>
-          <li className='list'>
+          <li className='list' onClick={() => scroll('project-page')}>
             Projects 
           </li>
-          <li className='list'>
+          <li className='list' onClick={() => scroll('contact-page')}>
             Contacts 
           </li>
         </div>
@@ -62,8 +62,8 @@ const btnStyle = {
   fontSize: '100%'
 }
 
-const scroll = () => {
-  const element = document.getElementById('about-page')
+const scroll = (text) => {
+  const element = document.getElementById(text)
   element.scrollIntoView({
     behavior: 'smooth'
   })
