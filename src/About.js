@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <div id='about-page' className='about-page'>
-      <h3 className='about-me'>About Me</h3>
+      <h1 className='about-me'>About Me</h1>
       <h2>Let me introduce myself.</h2>
       <div className='intro-info-container'>
         <img className='profile-image' src='../public/blank-profile.jpg' alt=''></img>

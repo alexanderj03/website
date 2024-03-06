@@ -12,4 +12,11 @@
 
 .form-container {
   color: white;
+  width: 800px;
+  height: 600px;
+}
+
+.contact-title {
+  font-family: 'Courier New', Courier, monospace;
+  color: #fcbc1d;
 }

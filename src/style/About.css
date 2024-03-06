@@ -11,6 +11,7 @@
 
 .about-me {
   color: orange;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .intro-info-container {
@@ -35,12 +36,6 @@
 
 .resume-page {
   background-color: #1c1c1f;
-  width: 100vw;
-  height: 100vh;
-}
-
-.project-page {
-  background-color: #34353a;
   width: 100vw;
   height: 100vh;
 }

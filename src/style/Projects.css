@@ -78,3 +78,68 @@
   background-size: contain;
   background-position: center;
 }
+
+.popup {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fffff0 ;
+}
+
+.popup-img-web {
+  width: 600px;
+  height: 300px;
+  background-image: url(/root/personal-website/public/website_big.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.popup-img-airbrb {
+  width: 600px;
+  height: 300px;
+  background-image: url(/root/personal-website/public/airbrb_big.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.popup-img-todo {
+  width: 600px;
+  height: 300px;
+  background-image: url(/root/personal-website/public/todo_big.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.info-container {
+  font-family: 'Courier New', Courier, monospace;
+  height: 200px;
+  width: 80%;
+  padding: 0 10%;
+  text-align: center;
+}
+
+.details-container {
+  width: 80%;
+  padding: 0 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.langauge-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  padding: 0 10%;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #c0c0c0;
+  margin-bottom: 15px;
+}
+
+.language {
+  margin: 0;
+}
