@@ -50,7 +50,7 @@ const Home = () => {
             <EmailIcon fontSize='inherit' color='inherit'/>
           </span>
         </div>
-        <Button variant="contained"size='large' sx={btnStyle} onClick={() => scroll()}>Discover Me</Button>
+        <Button variant="contained"size='large' sx={btnStyle} onClick={() => scroll('about-page')}>Discover Me</Button>
       </div>
     </div>
   )

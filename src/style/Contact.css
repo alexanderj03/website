@@ -1,0 +1,15 @@
+.contact-page {
+  background-color: #1c1c1f;
+  width: 100vw;
+  height: 92vh;
+  padding-top: 8%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: #FFFBF5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-container {
+  color: white;
+}

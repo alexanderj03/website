@@ -1,0 +1,80 @@
+.project-page {
+  background-color: #34353a;
+  width: 100vw;
+  height: 92vh;
+  padding-top: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.project-title {
+  text-align: center;
+}
+
+.project-text {
+  margin: 0;
+  color: #fcbc1d;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 150%;
+}
+
+.personal-projects {
+  color: white;
+}
+
+.project-container {
+  width: 900px;
+  height: 500px;
+  display: flex;
+}
+
+.projects {
+  width: 300px;
+  height: 300px;
+  border: 1px solid white;
+}
+
+.content {
+  width: 300px;
+  height: 300px;
+  background: rgba(0,0,0,0.6);
+  transition: 0.6s;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  font-size: 150%
+}
+
+.content:hover {
+  opacity: 1;
+}
+
+.todo {
+  background-image: url(/root/personal-website/public/todo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.website {
+  background-image: url(/root/personal-website/public/website.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.frontend {
+  background-image: url(/root/personal-website/public/airbrb.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
