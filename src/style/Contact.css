@@ -13,10 +13,50 @@
 .form-container {
   color: white;
   width: 800px;
-  height: 600px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-container {
+  width: 380px;
+  height: 500px;
 }
 
 .contact-title {
   font-family: 'Courier New', Courier, monospace;
   color: #fcbc1d;
+}
+
+.form-input {
+  width: 100%;
+  box-sizing: border-box;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  margin: 10px 0;
+}
+
+.form-message {
+  width: 100%;
+  box-sizing: border-box;
+  height: 190px;
+  border-radius: 5px;
+  padding-left: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  margin: 10px 0;
+  columns: 10;
+  padding-top: 10px;
+}
+.form-title {
+  margin: 0;
+}
+
+.button-send {
+  width: 150px;
+  height: 30px;
+  font-weight: bolder;
 }
