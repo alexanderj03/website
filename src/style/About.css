@@ -34,12 +34,6 @@
   margin: auto;
 }
 
-.resume-page {
-  background-color: #1c1c1f;
-  width: 100vw;
-  height: 100vh;
-}
-
 @media screen and (max-width: 900px) {
   .about-page {
     padding: 10% 20% 0 20%;

@@ -2,6 +2,7 @@ import './style/App.css';
 import './style/About.css';
 import './style/Contact.css';
 import './style/Projects.css';
+import './style/Resume.css';
 import Home from './Home.js'
 import About from './About.js';
 import React from 'react';
