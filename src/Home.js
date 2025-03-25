@@ -38,7 +38,7 @@ const Home = () => {
       </div>
       <div className='title-container'>
         <h1 className='title'>Alexander Jiw</h1>
-        <h2>Third year computer science student</h2>
+        <h2>Third year Computer Science Student</h2>
         <div className='icon-container'>
           <span className='icon'>
             <GitHubIcon fontSize='inherit' color='inherit' onClick={() => window.open("https://github.com/alexanderj03")}/>
@@ -47,7 +47,7 @@ const Home = () => {
             <LinkedInIcon fontSize='inherit' color='inherit' onClick={() => window.open("https://www.linkedin.com/in/alexander-jiw-2a568822a/")}/>
           </span>
           <span className='icon'>
-            <EmailIcon fontSize='inherit' color='inherit'/>
+            <EmailIcon fontSize='inherit' color='inherit' onClick={() => scroll('contact-page')}/>
           </span>
         </div>
         <Button variant="contained"size='large' sx={btnStyle} onClick={() => scroll('about-page')}>Discover Me</Button>

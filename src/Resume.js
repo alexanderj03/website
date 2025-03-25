@@ -16,8 +16,23 @@ const Resume = () => {
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<WorkIcon />}
         >
+          <h2 className='job-company'><u>Optus</u></h2>
+          <h4 className='job-length'>April 2024 - PRESENT</h4>
+          <h3 className='job-title'>Sale Associate</h3>
+          <p className='description'>
+            As an Optus Sales Associate, I am responsible for promoting and selling Optus products and services. I am able to create
+            a relationship with the customer by providing tailored solutions and delivering excellent customer service. As a result, 
+            I have developed strong communication and teamwork skills, allowing me to effectively collaborate with colleagues to 
+            engage with customers in a professional manner. 
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={<WorkIcon />}
+        >
           <h2 className='job-company'><u>Elevate Tuition</u></h2>
-          <h4 className='job-length'>JAN 2022 - PRESENT</h4>
+          <h4 className='job-length'>JAN 2022 - DEC 2024</h4>
           <h3 className='job-title'>Team Leader</h3>
           <p className='description'>
             Team leader at Elevate Tuition where my role is to delegate tasks such as class timetables and programs.
@@ -63,7 +78,7 @@ const Resume = () => {
           <h4 className='job-length'>2022 - PRESENT</h4>
           <h3 className='job-title'>Bachelor of Computer Science</h3>
           <p className='description'>
-            Currently studying bachelor of computer science with primary interest in front-end development and artificial intelligence.
+            Currently studying Bachelor of Computer Science with primary interest in front-end development and artificial intelligence.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -74,7 +89,7 @@ const Resume = () => {
           <h2 className='job-company'><u>Higher School Certificate</u></h2>
           <h4 className='job-length'>2016 - 2021</h4>
           <p className='description'>
-            Successfully completed the higher school certificate at Canley Vale High School.
+            Successfully completed the Higher School Certificate (HSC) at Canley Vale High School.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

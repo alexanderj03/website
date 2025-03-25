@@ -37,8 +37,6 @@ const Contacts = () => {
 	});
   }
 
-  
-
   return (
     <div className='contact-page' id='contact-page'>
       <h1 className='contact-title'>Contact Me</h1>
